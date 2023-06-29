@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets, linear_model, metrics
 from sklearn.datasets import fetch_california_housing
+from sklearn.model_selection import train_test_split
 
 # Load the California housing dataset
 california_housing = fetch_california_housing()
@@ -11,8 +12,6 @@ california_housing = fetch_california_housing()
 # Extract the features (X) and target variable (y)
 X = california_housing.data
 y = california_housing.target
-
-from sklearn.model_selection import train_test_split
 
 # Split the data into training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.4, random_state = 1)
