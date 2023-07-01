@@ -23,16 +23,49 @@
 The California Housing Dataset is used for training and testing the model.
 The target variable is the median house value.
 
-[Note: As the Dataset is too big to be uploaded here I will be providing the links for the same.]
+[Note: As the Datasets is too large to be uploaded here I will be providing the link for the same.]
 
-California Housing Dataset: [Click Here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+All the Datasets which are been used in this reposetory are downloaded from below link:
+
+Click here to [Download](https://drive.google.com/drive/folders/1Wsq93CEka5mkcGMj9gUbIWUPe1e0lJpw?usp=sharing) the datasets folder
+
+This link contains datasets which are as follows:
+1. California Housing Dataset
+2. Diabetes Dataset
+
+## Prerequisites
+
+To run the code in this repository, you need to have the following dependencies installed:
+
+- Python (version 3.x)
+  I have used Python (version 3.8.0) [Click Here](https://www.python.org/downloads/release/python-380/)
+- NumPy
+  ```
+  pip install numpy
+  ```
+- Pandas
+  ```
+  pip install pandas
+  ```
+- scikit-learn
+  ```
+  pip install scikit-learn
+  ```
 
 ### Linear Regression Model on California Housing Dataset
 
-This repository contains code for training and evaluating a linear regression model on the California Housing Dataset. The model predicts the median house value based on various housing-related features.
+This file contains code for training and evaluating a linear regression model on the California Housing Dataset. The model predicts the median house value based on various housing-related features.
 
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/5191935d-aefe-4be8-9a4f-c6a332d9bf55)
 
 ![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/5c14ec55-5802-493d-988d-c39459fbd9a8)
+
+### Logistic Regression Model on Daibetes Dataset
+
+This file contains an implementation of the logistic regression algorithm from scratch and compares its accuracy with the logistic regression model from scikit-learn on a diabetes dataset.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/c0769932-13b1-42a9-80fa-1229317502bd)
