@@ -18,11 +18,7 @@
 
 9. Make Predictions: After the model is trained and evaluated, you can use it to make predictions on new, unseen data. Provide the new data to the model, and it will generate predictions based on the patterns it learned during training.
 
-## Linear Regression Model on California Housing Dataset
-
-This repository contains code for training and evaluating a linear regression model on the California Housing Dataset. The model predicts the median house value based on various housing-related features.
-
-### Dataset
+## Dataset
 
 The California Housing Dataset is used for training and testing the model.
 The target variable is the median house value.
@@ -30,3 +26,13 @@ The target variable is the median house value.
 [Note: As the Dataset is too big to be uploaded here I will be providing the links for the same.]
 
 California Housing Dataset: [Click Here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
+
+### Linear Regression Model on California Housing Dataset
+
+This repository contains code for training and evaluating a linear regression model on the California Housing Dataset. The model predicts the median house value based on various housing-related features.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/5191935d-aefe-4be8-9a4f-c6a332d9bf55)
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/5c14ec55-5802-493d-988d-c39459fbd9a8)
