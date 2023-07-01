@@ -26,3 +26,7 @@ This repository contains code for training and evaluating a linear regression mo
 
 The California Housing Dataset is used for training and testing the model.
 The target variable is the median house value.
+
+[Note: As the Dataset is too big to be uploaded here I will be providing the links for the same.]
+
+California Housing Dataset: [Click Here](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
