@@ -89,4 +89,4 @@ The main steps of the program are as follows:
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/f888abf6-df29-403f-b9f9-068e314a6068)
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/77f876e2-3ecf-4b22-bea0-387aeec9fc8e)
