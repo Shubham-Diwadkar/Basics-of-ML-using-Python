@@ -32,6 +32,7 @@ Click here to [Download](https://drive.google.com/drive/folders/1Wsq93CEka5mkcGM
 This link contains datasets which are as follows:
 1. California Housing Dataset
 2. Diabetes Dataset
+3. Cancer Dataset
 
 ## Prerequisites
 
@@ -51,6 +52,10 @@ To run the code in this repository, you need to have the following dependencies 
   ```
   pip install scikit-learn
   ```
+- matplotlib.pyplot
+  ```
+  pip install matplotlib
+  ```
 
 ### Linear Regression Model on California Housing Dataset
 
@@ -69,3 +74,19 @@ This file contains an implementation of the logistic regression algorithm from s
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/c0769932-13b1-42a9-80fa-1229317502bd)
+
+### Support Vector Machine(Part 1 - 1 column) on Cancer Dataset
+
+This program reads a CSV file containing cancer data and extracts a single column.
+It then performs some operations on the column data.
+
+The main steps of the program are as follows:
+- Load the cancer dataset from a CSV file using Pandas.
+- Extract a single column from the dataset.
+- Perform operations on the extracted column data.
+- In this program, the shape of the column is printed.
+- Print the extracted column data.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/f888abf6-df29-403f-b9f9-068e314a6068)
