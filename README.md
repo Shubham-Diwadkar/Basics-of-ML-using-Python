@@ -90,3 +90,19 @@ The main steps of the program are as follows:
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/77f876e2-3ecf-4b22-bea0-387aeec9fc8e)
+
+### Support Vector Machine (Part 2 - 2 columns) on Cancer Dataset
+
+This program reads a CSV file containing cancer data and extracts two columns.
+It then performs some operations on the column data.
+
+The main steps of the program are as follows:
+- Load the cancer dataset from a CSV file using Pandas.
+- Extract two columns from the dataset.
+- Perform operations on the extracted columns data.
+- In this program, the shape of the columns is printed.
+- Print the extracted columns data.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/d0c55863-4c69-447b-87ac-abc0d7dcdcd0)
