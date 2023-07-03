@@ -106,3 +106,21 @@ The main steps of the program are as follows:
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/d0c55863-4c69-447b-87ac-abc0d7dcdcd0)
+
+### Decision Tree on Balance Scale Dataset
+
+This program demonstrates the use of a Decision Tree Classifier to classify the balance-scale dataset.
+
+The `Decision Tree.py` file performs the following steps:
+- Imports the necessary libraries and modules: NumPy, Pandas, scikit-learn metrics, scikit-learn model_selection, and scikit-learn DecisionTreeClassifier
+- Defines functions to import the dataset, split the dataset into training and testing sets, train the model using the Gini index criterion, train the model using the entropy criterion, make predictions, and calculate accuracy.
+- Loads the balance-scale dataset from the UCI Machine Learning Repository.
+- Splits the dataset into training and testing sets.
+- Trains the decision tree classifier using the Gini index criterion.
+- Trains the decision tree classifier using the entropy criterion.
+- Prints the results using the Gini index criterion: predicted values, confusion matrix, accuracy, and classification report.
+- Prints the results using the entropy criterion: predicted values, confusion matrix, accuracy, and classification report.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Basics-of-ML-using-Python/assets/125255910/218b21fe-c9aa-4178-ba56-2b09ceaacdab)
