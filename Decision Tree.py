@@ -88,7 +88,7 @@ def cal_accuracy(y_test, y_pred):
     print("\nAccuracy: ", accuracy_score(y_test, y_pred) * 100)
 
     # Generating a classification report that includes precision, recall, F1-score, and support for each class
-    print("\nRepport: ", classification_report(y_test, y_pred))
+    print("\nReport: ", classification_report(y_test, y_pred, zero_division=1))
 
 # It is a main entry point of the program
 def main():
